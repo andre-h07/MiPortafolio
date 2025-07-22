@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio de Programador - Kevin A. Herrera</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0e0e0e;
+      color: #f0f0f0;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #ff004c;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5rem;
+      color: #ff004c;
+      margin: 0;
+    }
+    header p {
+      margin-top: 0.5rem;
+      color: #ccc;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    h2 {
+      color: #ff004c;
+      border-left: 4px solid #ff004c;
+      padding-left: 0.5rem;
+    }
+    .about, .skills {
+      margin-bottom: 2rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .project-card {
+      background-color: #1f1f1f;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.02);
+    }
+    .project-card img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+    .project-card h3 {
+      color: #ff004c;
+      margin: 0.5rem 0;
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #111;
+      border-top: 1px solid #222;
+      color: #888;
+    }
+    a {
+      color: #ff004c;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kevin A. Herrera</h1>
+  <p>Estudiante de Programación Java | Apasionado por las APIs y la Analítica de Datos</p>
+</header>
+
+<section class="about">
+  <h2>Sobre mí</h2>
+  <p>Soy estudiante de programación con 2 años de experiencia, especializado en Java y desarrollo de API REST. Me apasionan los temas relacionados con estructuras como matrices y vectores, y tengo una afinidad razonable por las matemáticas. Manejo entornos como NetBeans, IntelliJ IDEA y Visual Studio Code, y tengo conocimientos básicos de Python para complementar mis proyectos. Actualmente, también me estoy formando en analítica de datos, trabajando con herramientas como Postman, phpMyAdmin y bases de datos relacionales. Además, tengo experiencia en la lectura y análisis de datos desde archivos Excel.</p>
+</section>
+
+<section class="skills">
+  <h2>Habilidades</h2>
+  <ul>
+    <li>✅ Java (con NetBeans e IntelliJ IDEA)</li>
+    <li>✅ Desarrollo de API REST</li>
+    <li>✅ Manejo de bases de datos con phpMyAdmin y SQL</li>
+    <li>✅ Lectura de datos desde archivos Excel</li>
+    <li>✅ Postman para pruebas de API</li>
+    <li>✅ Python (nivel básico)</li>
+    <li>✅ Visual Studio Code</li>
+  </ul>
+</section>
+
+<section class="projects">
+  <h2>Proyectos</h2>
+  <div class="project-card">
+    <img src="https://user-images.githubusercontent.com/your_image_link.jpg" alt="Proyecto Login Java" />
+    <h3>Proyecto Login con Java</h3>
+    <p>Sistema de inicio de sesión con Java y HTML. Incluye manejo de base de datos y validación de usuario.</p>
+    <a href="https://github.com/andre-h07/MiProjectoLogin" target="_blank">Ver en GitHub</a>
+  </div>
+
+  <div class="project-card">
+    <img src="https://user-images.githubusercontent.com/your_image_link.jpg" alt="Interfaz HTML" />
+    <h3>Interfaz Login HTML</h3>
+    <p>Interfaz frontend simple pero funcional para proyectos de autenticación.</p>
+    <a href="https://github.com/andre-h07/MiProjectoLogin/blob/main/index.html" target="_blank">Ver en GitHub</a>
+  </div>
+</section>
+
+<div class="footer">
+  <p>© 2025 Kevin A. Herrera. Todos los derechos reservados.</p>
+</div>
+
+</body>
+</html>
